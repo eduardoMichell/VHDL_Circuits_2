@@ -1,0 +1,86 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/eduar/Desktop/Univali/4_Semestre/ProjetosSistemasDigitais/trabalhom2/circuit1
+Ecircuit1
+Z1 w1571931501
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8circuit1.vhd
+Z6 Fcircuit1.vhd
+l0
+L6
+VR>W2RA8]AiAiQL>Mhj1U[1
+!s100 H5k]?F<b:_8^jelWUWRhU3
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1571931702
+!i10b 1
+Z9 !s108 1571931701.000000
+Z10 !s90 -reportprogress|300|circuit1.vhd|circuit1_tb.vhd|
+Z11 !s107 circuit1_tb.vhd|circuit1.vhd|
+!i113 1
+Z12 tExplicit 1 CvgOpt 0
+Aarch_1
+R2
+R3
+R4
+DEx4 work 8 circuit1 0 22 R>W2RA8]AiAiQL>Mhj1U[1
+l21
+L11
+VQ_SCVBQUR2DQ2TXYl14Kf0
+!s100 ?A5=EQ1Bh3Zoa_<70BCod0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+Ecircuit1_tb
+Z13 w1571931564
+R3
+R4
+R0
+Z14 8circuit1_tb.vhd
+Z15 Fcircuit1_tb.vhd
+l0
+L4
+VQ^lJMHF7iX;fz26]c2I2h2
+!s100 G:NUhmM09FFCO=OjZ:0Iz0
+R7
+32
+Z16 !s110 1571931703
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+Aarch_1
+R3
+R4
+DEx4 work 11 circuit1_tb 0 22 Q^lJMHF7iX;fz26]c2I2h2
+l17
+L7
+V@Kd[1`mF;2;3KC]1nQEk]0
+!s100 n:8Kj1LnD4caGLk:2ikXl2
+R7
+32
+R16
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12

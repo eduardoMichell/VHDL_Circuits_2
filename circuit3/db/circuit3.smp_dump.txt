@@ -1,0 +1,11 @@
+
+State Machine - |circuit3|w_STATE_REG
+Name w_STATE_REG.t_Pdata w_STATE_REG.t_Pcrono w_STATE_REG.t_Palarme w_STATE_REG.t_Phora w_STATE_REG.t_data w_STATE_REG.t_crono w_STATE_REG.t_alarme w_STATE_REG.t_hora 
+w_STATE_REG.t_hora 0 0 0 0 0 0 0 0 
+w_STATE_REG.t_alarme 0 0 0 0 0 0 1 1 
+w_STATE_REG.t_crono 0 0 0 0 0 1 0 1 
+w_STATE_REG.t_data 0 0 0 0 1 0 0 1 
+w_STATE_REG.t_Phora 0 0 0 1 0 0 0 1 
+w_STATE_REG.t_Palarme 0 0 1 0 0 0 0 1 
+w_STATE_REG.t_Pcrono 0 1 0 0 0 0 0 1 
+w_STATE_REG.t_Pdata 1 0 0 0 0 0 0 1 

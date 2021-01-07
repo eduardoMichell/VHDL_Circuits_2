@@ -1,0 +1,14 @@
+|circuit3
+i_CLK => w_STATE_REG~1.DATAIN
+i_B => w_NEXT_STATE.t_hora.DATAB
+i_B => w_NEXT_STATE.t_alarme.DATAB
+i_B => w_NEXT_STATE.t_crono.DATAB
+i_B => w_NEXT_STATE.t_data.DATAB
+i_B => Selector0.IN1
+i_B => Selector1.IN1
+i_B => Selector2.IN1
+i_B => Selector3.IN1
+o_S0 <= o_S0.DB_MAX_OUTPUT_PORT_TYPE
+o_S1 <= o_S1.DB_MAX_OUTPUT_PORT_TYPE
+
+

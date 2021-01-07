@@ -1,0 +1,7 @@
+
+State Machine - |circuit2|w_STATE_REG
+Name w_STATE_REG.t_S3 w_STATE_REG.t_S2 w_STATE_REG.t_S1 w_STATE_REG.t_S0 
+w_STATE_REG.t_S0 0 0 0 0 
+w_STATE_REG.t_S1 0 0 1 1 
+w_STATE_REG.t_S2 0 1 0 1 
+w_STATE_REG.t_S3 1 0 0 1 

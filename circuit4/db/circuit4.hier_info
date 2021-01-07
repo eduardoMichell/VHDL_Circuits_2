@@ -1,0 +1,23 @@
+|circuit4
+i_CLK => w_STATE_REG~1.DATAIN
+i_gent => Selector0.IN3
+i_gent => Selector1.IN3
+i_gent => Selector2.IN3
+i_gent => Selector3.IN3
+i_gent => Selector4.IN3
+i_gent => Selector5.IN3
+i_gent => Selector6.IN3
+i_gent => Selector7.IN3
+i_gent => Selector0.IN1
+i_gent => Selector1.IN1
+i_gent => Selector2.IN1
+i_gent => Selector3.IN1
+i_gent => Selector4.IN1
+i_gent => Selector5.IN1
+i_gent => Selector6.IN1
+i_gent => Selector7.IN1
+o_X <= o_X.DB_MAX_OUTPUT_PORT_TYPE
+o_Y <= o_Y.DB_MAX_OUTPUT_PORT_TYPE
+o_Z <= o_Z.DB_MAX_OUTPUT_PORT_TYPE
+
+

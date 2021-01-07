@@ -1,0 +1,40 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use IEEE.numeric_std.ALL;
+
+
+entity circuito1 is
+port(i_CLKM : in std_logic;
+          o_CLKH: out std_logic);
+end circuito1;
+
+architecture arch_1 of circuito1 is
+  attribute chip_pin : string;
+  
+    attribute chip_pin of i_CLKM : signal is "AF14";
+    attribute chip_pin of o_CLKH : signal is "V16";
+  
+ 
+ signal count : integer := 1;
+ signal temp : std_logic := '0';
+
+begin
+process(i_CLKM)
+ 
+	 begin
+		if  (i_CLKM'event and i_CLKM = '1')  then
+				if (count = 25000000) then
+					temp <= not temp;
+					count <= 1;
+						else
+							count <= count + 1;
+			 end if;
+		end if;
+	 end process;
+	 
+	 o_CLKH <= temp;
+
+end arch_1;
+					
+			  
+				
